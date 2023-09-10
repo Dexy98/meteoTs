@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+/* ! Reset */
+body, html {
+  background: hsla(192, 80%, 51%, 1);
+
+  background: radial-gradient(circle, hsla(192, 80%, 51%, 1) 30%, hsla(355, 85%, 63%, 1) 100%);
+
+  background: -moz-radial-gradient(circle, hsla(192, 80%, 51%, 1) 30%, hsla(355, 85%, 63%, 1) 100%);
+
+  background: -webkit-radial-gradient(circle, hsla(192, 80%, 51%, 1) 30%, hsla(355, 85%, 63%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1DBDE6", endColorstr="#F1515E", GradientType=1);
+
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+img {
+  height: auto;
+}
