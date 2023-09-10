@@ -4,8 +4,8 @@ import { WeatherData } from './App';
 // interfaccia props
 interface WeatherCardProps {
   index: number;
-  weatherData: WeatherData; // Assumi che WeatherData sia l'interfaccia che hai definito
-  getWeatherImage: (main: string) => string; // Assumi che getWeatherImage restituisca una stringa
+  weatherData: WeatherData; 
+  getWeatherImage: (main: string) => string; 
 }
 
 
