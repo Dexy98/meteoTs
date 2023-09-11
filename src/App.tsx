@@ -109,7 +109,7 @@ function App() {
     }
 
   };
-
+// Formattare dati in modo corretto da api 
   let visibilityInKM: number | undefined;
   let speedInKmh: number | undefined;
   let roundedSpeed: number | undefined;
